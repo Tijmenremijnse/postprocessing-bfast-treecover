@@ -10,7 +10,7 @@ library(parallel)
 source("../utils/utils.r")
 
 SR_GPKG = "../../data/WURChange20152019_Landsat8_TS.gpkg"
-Feature_GPKG = "../../data/wur_validation_features/"
+Feature_GPKG = "../../data/wur_validation_features"
 
 # Read all layers into a single list "SR"
 SRNames = st_layers(SR_GPKG)$name
